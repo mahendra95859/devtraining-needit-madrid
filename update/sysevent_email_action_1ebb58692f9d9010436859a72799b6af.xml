@@ -40,7 +40,8 @@
 <p><span style="box-sizing: border-box; font-weight: bold; font-size: 16px; line-height: 1.5; font-family: 'Source Sans Pro', sans-serif; letter-spacing: 0.02em; color: #293e40;">Number: ${number}</span></p>
 <p><span style="box-sizing: border-box; font-weight: bold; font-size: 16px; line-height: 1.5; font-family: 'Source Sans Pro', sans-serif; letter-spacing: 0.02em; color: #293e40;">Short description: ${short_description}</span></p>
 <p><span style="box-sizing: border-box; font-weight: bold; font-size: 16px; line-height: 1.5; font-family: 'Source Sans Pro', sans-serif; letter-spacing: 0.02em; color: #293e40;">Please complete this task as soon as possible.<span style="color: #293e40; font-family: 'Source Sans Pro', sans-serif; font-size: 16px; letter-spacing: 0.16px;">.</span></span></p>
-<p><span style="box-sizing: border-box; font-weight: bold; font-size: 16px; line-height: 1.5; font-family: 'Source Sans Pro', sans-serif; letter-spacing: 0.02em; color: #293e40;"><span style="color: #293e40; font-family: 'Source Sans Pro', sans-serif; font-size: 16px; letter-spacing: 0.16px;">Click here to view the NeedIt Task record: ${URI_REF}.</span></span></p>]]></message_html>
+<p><span style="box-sizing: border-box; font-weight: bold; font-size: 16px; line-height: 1.5; font-family: 'Source Sans Pro', sans-serif; letter-spacing: 0.02em; color: #293e40;"><span style="color: #293e40; font-family: 'Source Sans Pro', sans-serif; font-size: 16px; letter-spacing: 0.16px;">Click here to view the NeedIt Task record: ${URI_REF}.</span></span></p>
+<p><span style="box-sizing: border-box; font-weight: bold; font-size: 16px; line-height: 1.5; font-family: 'Source Sans Pro', sans-serif; letter-spacing: 0.02em; color: #293e40;"><span style="color: #293e40; font-family: 'Source Sans Pro', sans-serif; font-size: 16px; letter-spacing: 0.16px;">${mailto:mailto.closeNeeditTask}</span></span></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Overdue NeedIt Task</name>
@@ -49,12 +50,12 @@
         <push_message_only>false</push_message_only>
         <recipient_fields>assigned_to</recipient_fields>
         <recipient_groups/>
-        <recipient_users>6816f79cc0a8016401c5a33be04be441</recipient_users>
+        <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject/>
+        <subject>Overdue NeedIt Task: ${number}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -62,7 +63,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1ebb58692f9d9010436859a72799b6af</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Overdue NeedIt Task</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -70,7 +71,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sysevent_email_action_1ebb58692f9d9010436859a72799b6af</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-09 04:32:52</sys_updated_on>
+        <sys_updated_on>2020-07-03 00:51:25</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
